@@ -1,0 +1,26 @@
+ {
+    "running": "true",
+    "prefix": "-",
+    "guild": "null",
+    "botname": "Test Bot",
+    "maincolor": "null",
+
+    "adminroles": "null",
+    "modroles": "null",
+    "protecteeroles": "null",
+    "requestannounceroles": "null",
+    "requestblacklistusers": "null",
+
+    "doautoannounce": "false",
+    "announcechannels": "null",
+    "dochannellog": "false",
+    "logchannels": "null",
+
+    "roleannounceblacklist": "null",
+    "usersblacklisted": "null",
+
+    "robloxenabled": "false",
+    "robloxgroup": "3057297",
+
+    "opted": "null"
+}

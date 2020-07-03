@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "outDir": "dist",
+        "removeComments": false,
+        "strict": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "inlineSourceMap": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src",
+        "confidential.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/commands/templatecommand.ts",
+        "src/commands/testcopy.ts"
+    ]
+}
