@@ -15,7 +15,7 @@ class exampleevent implements IBotEvent {
         Type: (): EventType => { return this._Type}
     }
 
-    runEvent = async (client: Discord.Client, msgObject: Discord.Message): Promise<void> => {
+    runEvent = async (client: Discord.Client): Promise<void> => {
         console.log("Ready to Go!");
 
         // Run code every 5 seconds

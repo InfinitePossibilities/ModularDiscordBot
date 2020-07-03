@@ -13,51 +13,20 @@ export const config = {
     // Bot Token
     "token": Confidential.token,
 
-    // Roblox Account Cookie
-    "roblouser": Confidential.roblouser,
-    "roblopass": Confidential.roblopass,
-    "cookie": Confidential.cookie,
-
-    // Local whitelisted settings
+    // Local settings that can be altered by command
     "localwhitelistedsettings": [
         "running",
         "prefix",
         "botname",
         "maincolor",
-
-        // "modroles",
-
-        // "protecteeroles",
-        // "protecteerobloxuserids",
-        // "doprotectiondm",
-        // "doprotecteechannellog",
-        // "protecteechannels",
-        // "protecteeplaces",
-
-        // "requestannounceroles",
-        
-        // "requestblacklistusers",
-
-        // "doautoannounce",
-        // "announcechannels",
-        "dochannellog",
-        "logchannels",
-        
-        "roleannounceblacklist",
-        // "usersblacklist",
-
-        "robloxenabled",
-        "robloxgroups"
     ],
     
-    // Global whitelisted settings
+    // Global settings that can be altered by command
     "globalwhitelistedsettings": [
         "running",
         "prefix",
         "maincolor",
-        "usersblacklisted",
-        "discordGuilds",
-        "robloxGroups"
+        "usersblacklisted"
     ]
 }
 
