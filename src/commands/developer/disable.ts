@@ -31,6 +31,7 @@ class disable implements IBotCommand {
         try {
             Object.keys(CommandType).forEach((dirObject: string) => {
                 var objDirectory = `${directory}/commands/${dirObject.toLowerCase()}`;
+                
                 if (filesystem.existsSync(`${objDirectory}/${args[0].toLowerCase()}.js`)) {
                     delete require.cache[require.resolve(`${objDirectory}/${args[0].toLowerCase()}.js`)];
 
