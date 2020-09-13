@@ -21,7 +21,7 @@
     "http-proxy": "^1.18.1",
     "mysql": "^2.18.1",
     "noblox.js": "^4.6.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "opusscript": "0.0.6",
     "roblox-js": "^4.0.4",
     "trello": "^0.10.0",
